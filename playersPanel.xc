@@ -222,8 +222,8 @@
       "nickFormatRight": "{{nick}} <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:xwn8}}'>{{xwn8}}</font>  <b><font color='{{c:rating}}'>{{rating%2d~%}}</font></b>",
       // Display format for vehicle name (macros allowed, see readme-en.txt).
       // Формат отображения названия танка (допускаются макроподстановки, см. readme-ru.txt).
-      "vehicleFormatLeft": "{{vehicle%-16s}} <b><font color='{{c:hp-ratio}}'>{{hp-ratio}}%</font></b>",
-      "vehicleFormatRight": "{{vehicle%-16s}} <b><font color='{{c:hp-ratio}}'>{{hp-ratio}}%</font></b>",
+      "vehicleFormatLeft": "{{vehicle%-16s}} <b><font color='{{c:hp-ratio}}'>{{hp-ratio~%}}</font></b>",
+      "vehicleFormatRight": "{{vehicle%-16s}} <b><font color='{{c:hp-ratio}}'>{{hp-ratio~%}}</font></b>",
       // Display format for frags (macros allowed, see readme-en.txt).
       // Формат отображения фрагов (допускаются макроподстановки, см. readme-ru.txt).
       "fragsFormatLeft": "{{frags}}",

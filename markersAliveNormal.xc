@@ -199,7 +199,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "<b><font color='#FF00FF'>{{level}}</font></b>  <font color='#0000FF'>{{vehicle}}{{turret}}</font>"
+        "format": "<b><font color='#FF00FF'>{{level}}</font></b>  <b><font color='#33CCFF'>{{vehicle}}{{turret}}</font></b>"
       },
       // Text field with the remaining / maximum health.
       // Текстовое поле с оставшимся / максимальным здоровьем
@@ -251,13 +251,13 @@
           "size": 6,
           "strength": 200
         },
-        "format": "<font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb%2d}}</font>"
+        "format": "<font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb%2d~k}}</font>"
       },
       {
         "name": "Win rate",
         "visible": true,
         "x": 0,
-        "y": -80,
+        "y": -75,
         "alpha": 100,
         "color": "{{c:rating}}",
         "font": {
@@ -400,7 +400,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "<b><font color='#FF00FF'>{{level}}</font></b>  <font color='#0000FF'>{{vehicle}}{{turret}}</font>"
+        "format": "<b><font color='#FF00FF'>{{level}}</font></b>  <b><font color='#33CCFF'>{{vehicle}}{{turret}}</font></b>"
       },
       // Text field with the remaining / maximum health.
       // Текстовое поле с оставшимся / максимальным здоровьем
@@ -452,7 +452,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "<font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb%2d}}</font>"
+        "format": "<font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb%2d~k}}</font>"
       },
       {
         "name": "Win rate",

@@ -199,7 +199,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{level}}  {{vehicle}}{{turret}}"
+        "format": "<b><font color='#FF00FF'>{{level}}</font></b>  <font color='#0000FF'>{{vehicle}}{{turret}}</font>"
       },
       // Text field with the remaining / maximum health.
       // Текстовое поле с оставшимся / максимальным здоровьем
@@ -230,7 +230,7 @@
       // Text field with win ratio.
       // Текстовое поле с процентом побед.
       {
-        "name": "Win Rate",
+        "name": "Stats",
         "visible": true,
         "x": 0,
         "y": -50,
@@ -240,7 +240,7 @@
           "name": "$FieldFont",
           "size": 14,
           "align": "center",
-          "bold": true,
+          "bold": false,
           "italic": false
         },
         "shadow": {
@@ -251,7 +251,31 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{rating%2d~%}}"
+        "format": "<font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb%2d}}</font>"
+      },
+      {
+        "name": "Win rate",
+        "visible": true,
+        "x": 0,
+        "y": -80,
+        "alpha": 100,
+        "color": "{{c:rating}}",
+        "font": {
+          "name": "$FieldFont",
+          "size": 20,
+          "align": "center",
+          "bold": false,
+          "italic": false
+        },
+        "shadow": {
+          "alpha": 100,
+          "color": "0x000000",
+          "angle": 45,
+          "distance": 0,
+          "size": 6,
+          "strength": 200
+        },
+        "format": "<b>{{rating%2d~%}}</b>"
       }
     ]
   },
@@ -376,7 +400,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "[{{level}}] {{vehicle}}{{turret}}"
+        "format": "<b><font color='#FF00FF'>{{level}}</font></b>  <font color='#0000FF'>{{vehicle}}{{turret}}</font>"
       },
       // Text field with the remaining / maximum health.
       // Текстовое поле с оставшимся / максимальным здоровьем
@@ -407,7 +431,7 @@
       // Text field with win ratio.
       // Текстовое поле с процентом побед.
       {
-        "name": "Win Rate",
+        "name": "Stats",
         "visible": true,
         "x": 0,
         "y": -50,
@@ -417,7 +441,7 @@
           "name": "$FieldFont",
           "size": 14,
           "align": "center",
-          "bold": true,
+          "bold": false,
           "italic": false
         },
         "shadow": {
@@ -428,7 +452,31 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{rating%2d~%}}"
+        "format": "<font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb%2d}}</font>"
+      },
+      {
+        "name": "Win rate",
+        "visible": true,
+        "x": 0,
+        "y": -80,
+        "alpha": 100,
+        "color": "{{c:rating}}",
+        "font": {
+          "name": "$FieldFont",
+          "size": 20,
+          "align": "center",
+          "bold": false,
+          "italic": false
+        },
+        "shadow": {
+          "alpha": 100,
+          "color": "0x000000",
+          "angle": 45,
+          "distance": 0,
+          "size": 6,
+          "strength": 200
+        },
+        "format": "<b>{{rating%2d~%}}</b>"
       }
     ]
   }

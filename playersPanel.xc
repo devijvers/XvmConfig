@@ -218,8 +218,8 @@
       "width": 170,
       // Display format for player nickname (macros allowed, see readme-en.txt).
       // Формат отображения имени игрока (допускаются макроподстановки, см. readme-ru.txt).
-      "nickFormatLeft": "<b><font color='{{c:rating}}'>{{rating%2d~%}}</font></b>  <font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> {{nick}}",
-      "nickFormatRight": "{{nick}} <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:xwn8}}'>{{xwn8}}</font>  <b><font color='{{c:rating}}'>{{rating%2d~%}}</font></b>",
+      "nickFormatLeft": "<b><font color='{{c:t-rating}}'>{{t-rating%2d~%}}</font></b>  <font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> {{nick}}",
+      "nickFormatRight": "{{nick}} <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:xwn8}}'>{{xwn8}}</font>  <b><font color='{{c:t-rating}}'>{{t-rating%2d~%}}</font></b>",
       // Display format for vehicle name (macros allowed, see readme-en.txt).
       // Формат отображения названия танка (допускаются макроподстановки, см. readme-ru.txt).
       "vehicleFormatLeft": "{{vehicle%-16s}} <b><font color='{{c:hp-ratio}}'>{{hp-ratio~%}}</font></b>",

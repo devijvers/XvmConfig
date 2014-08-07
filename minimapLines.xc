@@ -30,7 +30,7 @@
        "camera": [
          { "enabled": false, "from": 50,  "to": 100, "inmeters": true, "thickness": 2,   "alpha": 60, "color": "0xEE0044"},
          { "enabled": false, "from": 200, "to": 300, "inmeters": true, "thickness": 1.5, "alpha": 45, "color": "0xEE0044"},
-         { "enabled": false, "from": 350, "to": 445, "inmeters": true, "thickness": 1,   "alpha": 30, "color": "0xEE0044"}
+         { "enabled": false, "from": 350, "to": 500, "inmeters": true, "thickness": 1,   "alpha": 30, "color": "0xEE0044"}
        ],
        // Gun traverse angles may differ depending on vehicle angle relative to ground. See pics at http://goo.gl/ZqlPa
        // Углы горизонтальной наводки могут меняться в зависимости от углов постановки машины на склонах местности. Подробнее по ссылке: http://goo.gl/ZqlPa
@@ -38,7 +38,7 @@
        // Horizontal gun traverse angle lines.
        // Углы горизонтальной наводки.
        "traverseAngle": [
-         { "enabled": true, "from": 20,  "to": 300, "inmeters": false, "thickness": 0.4, "alpha": 35, "color": "0xFFCC66"}
+         { "enabled": true, "from": 20,  "to": 500, "inmeters": true, "thickness": 0.4, "alpha": 35, "color": "0xFFCC66"}
        ]
     }
 }

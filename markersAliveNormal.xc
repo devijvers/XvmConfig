@@ -259,7 +259,7 @@
         "x": 0,
         "y": -75,
         "alpha": 100,
-        "color": "{{c:rating}}",
+        "color": "{{c:t-rating}}",
         "font": {
           "name": "$FieldFont",
           "size": 20,
@@ -275,7 +275,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "<b>{{rating%2d~%}}</b>"
+        "format": "<b>{{t-rating%2d~%}}</b>"
       }
     ]
   },
@@ -460,7 +460,7 @@
         "x": 0,
         "y": -80,
         "alpha": 100,
-        "color": "{{c:rating}}",
+        "color": "{{c:t-rating}}",
         "font": {
           "name": "$FieldFont",
           "size": 20,
@@ -476,7 +476,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "<b>{{rating%2d~%}}</b>"
+        "format": "<b>{{t-rating%2d~%}}</b>"
       }
     ]
   }
